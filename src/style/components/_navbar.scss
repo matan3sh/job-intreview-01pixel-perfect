@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.7rem 2rem;
+  margin-top: 3rem;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+  line-height: 28px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: Livvic - Semi Bold;
+}
+
+.nav-left {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-left img {
+  margin: 0rem 2rem;
+}
+
+.nav-left p {
+  margin-left: 1.5rem;
+  margin-top: 0.3rem;
+}
+
+.active {
+  color: #f67e7e;
+}

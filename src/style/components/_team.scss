@@ -1,0 +1,88 @@
+.team-section {
+  position: relative;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 2;
+  width: 90%;
+  height: 100vh;
+}
+
+.img-pattern {
+  position: relative;
+  top: 105px;
+  z-index: -1;
+}
+
+.team-section-header {
+  line-height: 48px;
+}
+
+.team-section-header span {
+  color: $secondery-color;
+}
+
+.team-section h2 {
+  font-size: 48px;
+}
+
+.team-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+.team-member-description {
+  color: #fff;
+  margin-top: 2rem;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  font-family: Livvic - Semi Bold;
+  z-index: 1;
+  width: 60%;
+}
+
+.team-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  flex-direction: column;
+}
+
+.svg-qoute {
+  position: absolute;
+  bottom: 522px;
+  z-index: -1;
+}
+
+.team-member-name {
+  color: $secondery-color;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  font-family: Livvic - Bold;
+  margin-top: 2rem;
+}
+
+.team-member-title {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 18px;
+  font-family: Livvic - Medium Italic;
+}
+
+.team-item-img {
+  border-radius: 50%;
+  width: 80px;
+  margin: 2rem 0;
+  border: $secondery-color 2px solid;
+}
